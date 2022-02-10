@@ -4,22 +4,20 @@ class Atm:
         self.pinNumber = pinNumber
 
     def displayProperties(self):
-        self.cardNumber
-        self.pinNumber
+        print(self.pinNumber, self.cardNumber)
+
+    def cashWithdrawal(self):
+        print("You've successfully withdrawn money from your account.")
+
+    def balanceEnquiry(self):
+        print("Your balance is 1,100,749,324. That's a lot of money!") 
 
 
-def cashWithdrawal():
-    print("You've successfully withdrawn money from your account.")
+Agastya = Atm(4596232585365696, 2487)
 
-def balanceEnquiry():
-    print("Your balance is 1,100,749,324. That's a lot of money!") 
-
-
-ATM1 = Atm(4596232585365696, 2487)
-
-ATM1.displayProperties()
-cashWithdrawal()
-balanceEnquiry()
+Agastya.displayProperties()
+Agastya.cashWithdrawal()
+Agastya.balanceEnquiry()
 
 
 
