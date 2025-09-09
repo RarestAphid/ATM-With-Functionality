@@ -13,11 +13,12 @@ class Atm:
         print("Your balance is 1,100,749,324. That's a lot of money!") 
 
 
-Agastya = Atm(4596232585365696, 2487)
+Account = Atm(4596232585365696, 2487)
 
-Agastya.displayProperties()
-Agastya.cashWithdrawal()
-Agastya.balanceEnquiry()
+Account.displayProperties()
+Account.cashWithdrawal()
+Account.balanceEnquiry()
+
 
 
 
